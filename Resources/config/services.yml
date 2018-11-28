@@ -1,0 +1,5 @@
+services:
+    app.getnet:
+        class: Censanet\GetnetBundle\Getnet\Getnet
+        arguments: ["@service_container"]
+        public: true

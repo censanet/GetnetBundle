@@ -1,0 +1,22 @@
+{
+    "name": "censanet/getnet-bundle",
+    "description": "Integration of Getnet in Symfony",
+    "keywords": ["censanet", "getnet"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [{
+        "name": "Thiago Amâncio",
+        "email": "tjamancio@censanet.com.br"
+    }],
+    "autoload": {
+        "psr-4": { "Censanet\\GetnetBundle\\": "" },
+        "exclude-from-classmap": [ "Tests/" ]
+    },
+    "require": {
+        "symfony/dependency-injection": "^2.8|^3.0|^4.0",
+        "symfony/framework-bundle": "^2.8|^3.0|^4.0"
+    },
+    "require-dev": {
+        "sensio/framework-extra-bundle": "^4.0"
+    }
+}

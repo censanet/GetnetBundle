@@ -1,0 +1,3 @@
+getnet_homepage:
+    path:     /
+    defaults: { _controller: GetnetBundle:Default:index }
